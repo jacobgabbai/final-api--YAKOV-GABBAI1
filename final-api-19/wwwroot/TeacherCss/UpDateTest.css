@@ -1,0 +1,131 @@
+﻿body {
+   
+    margin:0;
+    height:100%;
+    width:100%;
+    background-color:red;
+    padding:0;
+   
+}
+.screen {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 737px;
+    width: 100%;
+    background-color: blue;
+}
+
+.head {
+
+    background-color: black;
+    height: 100px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    top: 0;
+   
+}
+.maindiv {
+    top: 0px;
+    flex-grow: 1;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    background-color: azure;
+}
+
+.maindiv1 {
+    margin-left: 1%;
+    float: left;
+    margin-top: 0px;
+    background-color: azure;
+    width: 18%;
+    height: 100px;
+    
+}
+.h111 {
+    margin-top:50px;
+    padding:0px;
+    text-align:center;
+    background-color:azure;
+ 
+}
+
+
+
+.hh1 {
+    font-size: 40px;
+    color: aqua;
+     margin-left: 30px;
+
+   
+}
+
+.ph1 {
+    color: white;
+    font-size: 20px;
+   margin-top:45px;
+   margin-left:10px
+   
+    
+}
+
+.foot {
+   
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    bottom: 0;
+
+
+
+
+}
+
+.hf1 {
+    margin-left: 50px;
+    margin-top: 30px;
+    color: aqua;
+}
+
+
+.divf {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: 500px;
+}
+
+    .divf a {
+        padding: 20px;
+        color: white;
+        height: 20px;
+    }
+
+        .divf a i {
+            font-size: 30px
+        }
+
+.pm {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.span1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn1 {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+

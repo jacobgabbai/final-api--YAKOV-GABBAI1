@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../TeacherCss/UpDateTest.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title></title>
+</head>
+<body>
+    <div class="screen" id=screen>
+        <div class="head">
+            <h1 class="hh1">Top School</h1>
+            <p class="ph1">- the best website for creating/doing school test</p>
+        </div>
+        <div class="maindiv">
+            <h1 style="margin-top:0px;padding:10px;text-align:center;background-color:azure">Update Test</h1>
+            <div class="maindiv1"  id="maindiv">
+                <label style="margin-left:1%" for="seaarch">Search by:</label>
+                <select style="background-color:azure; margin-left:1px" name="cars" id="cars" onchange="readvalue(this.value)">
+                    <option value="name">Name</option>
+                    <option value="date">Date</option>
+                </select><br />
+                <label id="inputM" for="cars"  class="h111"></label><br />
+
+                <input style="margin-left:1%" class="in11" type="text" id="idt" value="" placeholder="Enter Test Name" />
+
+
+                <button onclick="findtest()" class="btn1" id="btn1">search</button>
+
+            </div>
+            <div style="background-color:purple;" id="div1"></div>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="foot">
+
+            <h1 class="hf1"> Top School &copy;</h1>
+            <div class="divf">
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-instagram"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <script src="../TeacherJava/test-up-date.js"></script>
+</body>
+
+</html>

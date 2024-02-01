@@ -1,0 +1,191 @@
+﻿body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.bodyd {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: azure;
+}
+
+.head {
+    background-color: black;
+    height: 100px;
+    padding: 0px;
+    width: 100%;
+    margin-top: -27px;
+}
+
+.hh1 {
+    font-size: 40px;
+    color: aqua;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.ph1 {
+    color: white;
+    font-size: 20px;
+    margin-top: -55px;
+    margin-left: 230px;
+}
+
+.divm {
+}
+.div1 {
+    margin-top:20px;
+    height:500px;
+    width:30%;
+    float:left;
+ 
+}
+.div11 {
+    background-color:azure;
+    height:150px;
+    width:95%;
+    margin-top:80px;
+
+}
+
+.div2 {
+    height:500px;
+    margin-top:20px;
+    width:30%;
+    float:left;
+   
+}
+.div21 {
+    height:100px;
+    width:100%;
+    background-color:azure;
+  
+}
+
+.div22 {
+    height:200px;
+    width:100%;
+    background-color:azure;
+
+}
+.div221 {
+    margin-left:0px;
+    margin-top:0px;
+    float:left;
+    height:150px;
+    width:50%;
+    background-color:azure;
+
+
+}
+.div222 {
+    float:left;
+    margin-top:0px;
+    height:150px;
+    width:50%;
+    background-color:azure
+}
+.div223 {
+    margin-top:0px;
+    height:50px;
+    width:100%;
+    background-color:azure;
+}
+.div23 {
+    height:100px;
+    background-color:azure;
+}
+.div24 {
+    height:100px;
+    width:100%;
+    background-color:azure;
+}
+.div3 {
+    height:500px;
+    margin-top:20px;
+    margin-left:10px;
+    width:30%;
+    float:left;
+}
+.div31 {
+    height:100px;
+    width:99%;
+    background-color:azure;
+}
+
+.div32 {
+    height: 200px;
+    width:99%;
+    background-color:azure;
+}
+.foot {
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.hf1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: aqua;
+}
+
+
+.divf {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 500px;
+}
+
+    .divf a {
+        padding: 20px;
+        color: white;
+        height: 20px;
+    }
+
+        .divf a i {
+            font-size: 30px
+        }
+
+.pm {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.span1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.imgst {
+    margin-left: 800px;
+    margin-top: -300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.in1{
+    margin-left:20px;
+}

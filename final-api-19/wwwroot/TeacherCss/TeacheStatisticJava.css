@@ -1,0 +1,135 @@
+﻿body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    padding: 0;
+   
+}
+
+
+.bodyd {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 737px;
+
+    background-color: azure;
+}
+.center {
+    top: 0px;
+    flex-grow: 1;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+    background-color: azure;
+}
+
+.head {
+    background-color: black;
+    height: 100px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    top: 0;
+}
+
+.hh1 {
+    font-size: 40px;
+    color: aqua;
+    margin-left: 30px;
+}
+
+.ph1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 10px
+}
+
+.h1 {
+   
+  
+}
+
+.div1 {
+    width: 500px;
+    height: 50px;
+    margin-left: 33%;
+    margin-top:0px;
+    float: left;
+    background-color: azure;
+    cursor: pointer;
+   
+}
+
+
+.div22 {
+    margin-top:-100px;
+    height:85px;
+    width:400px;
+    
+}
+.divwr {
+    margin-left: 35%;
+    margin-top: 200px;
+    height: 100px;
+    width: 500px;
+}
+.divwr2 {
+    margin-left:35%;
+    margin-top:-120px;
+    width:400px;
+    background-color:aquamarine;
+  
+}
+
+.foot {
+   
+    background-color: black;
+    height: 100px;
+
+    width: 100%;
+}
+
+.hf1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: aqua;
+}
+
+
+.divf {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 500px;
+}
+
+    .divf a {
+        padding: 20px;
+        color: white;
+        height: 20px;
+    }
+
+        .divf a i {
+            font-size: 30px
+        }
+
+.pm {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.span1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
