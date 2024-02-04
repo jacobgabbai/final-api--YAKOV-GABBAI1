@@ -1,6 +1,8 @@
 ﻿window.addEventListener("beforeunload", localset)
 const table = document.createElement("table")
 window.addEventListener("load", testh)
+localStorage.setItem("open", 1)
+
 qex = []
 aex = []
 var tr = true

@@ -6,6 +6,7 @@ let aa1 = 0
 let countsubmit = []
 let ch = 0
 let start = 0
+localStorage.setItem("open", 1)
 
 ht = document.createElement("h3")
 ht.style.marginTop="0px"

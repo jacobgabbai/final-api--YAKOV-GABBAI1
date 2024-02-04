@@ -48,26 +48,40 @@ div3.appendChild(p3)
 
 
 function TestHistory1() {
-
-    window.open("https://top-school.azurewebsites.net/StudentHtml/Student-history.html")
+    const open = localStorage.getItem("open")
+    if (open == 1) { alert("window is open please close other windows") }
+    else {
+        window.open("https://top-school.azurewebsites.net/StudentHtml/Student-history.html")
+    }
+    
 }
 
 
 function taketest2() {
     const itson = localStorage.getItem("itson")
 
-    if (itson == null) {
+    //if (itson == null) {
+    //    window.open("https://top-school.azurewebsites.net/StudentHtml/H.html")
+    //}
+    //else { alert("take test window is already open") }
+
+    const open = localStorage.getItem("open")
+    if (open == 1) { alert("window is open please close other windows") }
+    else {
         window.open("https://top-school.azurewebsites.net/StudentHtml/H.html")
     }
-    else { alert("take test window is already open") }
-   
+
    
 }
 
 function testsearch() {
 
+    const open = localStorage.getItem("open")
+    if (open == 1) { alert("window is open please close other windows") }
+    else {
+        window.open("https://top-school.azurewebsites.net/StudentHtml/testsearch.html")
+    }
 
-
-    window.open("https://top-school.azurewebsites.net/StudentHtml/testsearch.html")
+    
 }
 

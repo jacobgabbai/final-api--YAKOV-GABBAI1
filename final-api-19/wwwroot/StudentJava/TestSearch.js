@@ -1,4 +1,5 @@
-﻿
+﻿localStorage.setItem("open", 1)
+window.addEventListener("beforeunload", function () { localStorage.clear() })
 
 const st = document.createElement("select")
 st.id = "st"
