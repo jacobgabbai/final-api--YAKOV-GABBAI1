@@ -145,9 +145,10 @@ async function testh() {
                 const hwr = document.createElement("h1")
                 hwr.textContent = "mistakes"
                 hwr.style.marginLeft = "29%"
+                centerdiv.appendChild(divwr)
             }
             checkIf=1
-            centerdiv.appendChild(divwr)
+           
             divwr.replaceChildren()
             divwr.style.border = "dotted"
             divwr.style.overflow = "scroll"
