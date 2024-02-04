@@ -5,7 +5,14 @@ qex = []
 aex = []
 var tr = true
 let checkIf=0
-const centerdiv=document.getElementById("center")
+const centerdiv = document.getElementById("center")
+const divwr = document.createElement("div")
+divwr.style.width = "400px"
+divwr.style.marginLeft = "35%"
+divwr.style.marginTop = "0px"
+const hwr = document.createElement("h1")
+hwr.textContent = "mistakes"
+hwr.style.marginLeft = "29%"
 
 // THIS FUNC calls the data from the surver  create a table and upload the data to the screan
 async function testh() {
@@ -137,18 +144,9 @@ async function testh() {
 
         // this func up loads all the worng answers to the screan 
         function dissplay(a, b) {
-            if (checkIf == 0) {
-                const divwr = document.createElement("div")
-                divwr.style.width = "400px"
-                divwr.style.marginLeft = "35%"
-                divwr.style.marginTop = "0px"
-                const hwr = document.createElement("h1")
-                hwr.textContent = "mistakes"
-                hwr.style.marginLeft = "29%"
-                centerdiv.appendChild(divwr)
-            }
-            checkIf=1
            
+              
+            centerdiv.appendChild(divwr)       
             divwr.replaceChildren()
             divwr.style.border = "dotted"
             divwr.style.overflow = "scroll"
