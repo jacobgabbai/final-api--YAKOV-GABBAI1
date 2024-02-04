@@ -40,14 +40,7 @@ async function testh() {
         centerdiv.appendChild(divwr1)
         return
     }
-    const divwr = document.createElement("div")
-    divwr.style.width = "400px"
-    divwr.style.marginLeft = "35%"
-    divwr.style.marginTop = "0px"
-    const hwr = document.createElement("h1")
-    hwr.textContent = "mistakes"
-    hwr.style.marginLeft = "29%"
-    centerdiv.appendChild(divwr)
+   
     if (rep.status == 200 && repo.length > 0) {
         const div = document.getElementById("div")
         div.id = "div1"
@@ -144,6 +137,16 @@ async function testh() {
 
         // this func up loads all the worng answers to the screan 
         function dissplay(a, b) {
+            if (divwr != null) {
+                const divwr = document.createElement("div")
+                divwr.style.width = "400px"
+                divwr.style.marginLeft = "35%"
+                divwr.style.marginTop = "0px"
+                const hwr = document.createElement("h1")
+                hwr.textContent = "mistakes"
+                hwr.style.marginLeft = "29%"
+            }
+            centerdiv.appendChild(divwr)
             divwr.replaceChildren()
             divwr.style.border = "dotted"
             divwr.style.overflow = "scroll"
