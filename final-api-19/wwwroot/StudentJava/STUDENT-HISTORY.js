@@ -1,4 +1,4 @@
-﻿window.addEventListener("beforeunload", localset)
+﻿window.addEventListener("beforeunload", function () {localset() })
 const table = document.createElement("table")
 window.addEventListener("load", testh)
 localStorage.setItem("open", 1)

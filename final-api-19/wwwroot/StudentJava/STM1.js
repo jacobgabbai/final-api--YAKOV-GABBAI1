@@ -60,10 +60,7 @@ function TestHistory1() {
 function taketest2() {
     const itson = localStorage.getItem("itson")
 
-    //if (itson == null) {
-    //    window.open("https://top-school.azurewebsites.net/StudentHtml/H.html")
-    //}
-    //else { alert("take test window is already open") }
+  
 
     const open = localStorage.getItem("open")
     if (open == 1) { alert("window is open please close other windows") }
