@@ -969,19 +969,10 @@ async function subTest(c, b) {
         }
 
     }
-    if (countA < b.length) {
-        let z = b.length - countA;
-        const h1 = document.createElement("h1")
-        h1.textContent = `question ${z} has not been answered`
-
-        div223.style.textAlign = "center"
-        div223.appendChild(h1)
-
-        setTimeout(() => { div223.removeChild(h1) }, 3000)
-    }
+ 
     for (let qq = 0; qq < b.length; qq++) {
         const lo = localStorage.getItem(`answercount${qq}`)
-        if (lo == 0 && timeout == 0) {
+        if (lo == "0" && timeout == 0) {
            
             div223.replaceChildren()
 
@@ -1173,7 +1164,7 @@ async function subTest(c, b) {
      
     }
 }
-// this func active after the test is finished and close the window
+ //this func active after the test is finished and close the window
 function finishtest() {
     const stuname = localStorage.getItem("stuName")
     const stuId = localStorage.getItem("stuId")
