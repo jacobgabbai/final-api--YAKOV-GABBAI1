@@ -1,5 +1,13 @@
 ﻿localStorage.setItem("open", 1)
-window.addEventListener("beforeunload", function () { localStorage.clear() })
+function localset() {
+
+    const a = localStorage.getItem("stuId")
+    const b = localStorage.getItem("stuName")
+    localStorage.clear()
+    localStorage.setItem("stuId", a)
+    localStorage.setItem("stuName", b)
+}
+window.addEventListener("beforeunload", function () { localset() })
 
 const st = document.createElement("select")
 st.id = "st"
