@@ -1,13 +1,13 @@
 ﻿body {
     width: 100%;
     margin: 0;
-    height: 100%;
+    height: 100vh;
     background-color:red;
 }
 
 .bodyd {
  
-    min-height:737px;
+    min-height:100vh;
     width: 100%;
     margin: 0;
     background-color: blue;
@@ -19,7 +19,6 @@
     top: 0px;
     flex-grow: 1;
     width: 100%;
-    padding-bottom: 20px;
     margin-bottom: 0px;
     background-color: azure;
 }
@@ -37,6 +36,7 @@
     color: aqua;
     margin-left: 30px;
     padding-top: 20px;
+    margin-top:0px;
 }
 
 .ph1 {

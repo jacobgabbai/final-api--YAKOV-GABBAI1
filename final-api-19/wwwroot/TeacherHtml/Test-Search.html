@@ -7,26 +7,28 @@
 
     <link rel="stylesheet" href="../TeacherCss/TestSearchCSS.css" />
 </head>
-<body style="background-color:azure">
+<body id="body" onresize="myFunction()" style="background-color:azure">
     <div id="maindiv1" class="bodyd">
         <div class="head">
             <h1 class="hh1">Top School</h1>
             <p class="ph1">- the best website for creating/doing school test</p>
         </div>
-        <h1 class="h11">search for a test </h1><br />
-        <label class="lab1 " for="input" id="lab" style="color:red"></label><br />
-        <input name="input" class="in11" type="text" id="idt"  value="" placeholder="Enter Test Name Please" />
-        <select style="background-color:azure;" name="cars" id="cars" onchange="readvalue(this.value)">
-            <option value="name">By Name</option>
-            <option value="date">By Date</option>
-        </select>
-        <button class="btn1"  onclick="findtest()" id="btn1">Search</button>
-        <div id="maindiv" class="maindiv">
+        <div id="center" class="center">
+            <h1 class="h11">search for a test </h1><br />
+            <label class="lab1 " for="input" id="lab" style="color:red"></label><br />
+            <input name="input" class="in11" type="text" id="idt" value="" placeholder="Enter Test Name Please" />
+            <select style="background-color:azure;" name="cars" id="cars" onchange="readvalue(this.value)">
+                <option value="name">By Name</option>
+                <option value="date">By Date</option>
+            </select>
+            <button class="btn1" onclick="findtest()" id="btn1">Search</button>
+            <div id="maindiv" class="maindiv">
 
 
-            <div id="div1" style="margin-top: -70px"></div>
-            <div style="height:270px;" id="div2"></div>
-            <div  id="div3"></div>
+                <div id="div1" style="margin-top: -70px"></div>
+                <div style="height:270px;" id="div2"></div>
+                <div id="div3" ></div>
+            </div>
         </div>
         <div class="foot">
 

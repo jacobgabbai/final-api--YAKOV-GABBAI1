@@ -1,8 +1,23 @@
 ﻿
 localStorage.setItem("opent", 1)
+
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const hh = body.offsetHeight
+let hm = hh - 200
+c.style.minHeight = `${hm}px`
+
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const hh = body.offsetHeight
+    let hm = hh - 200
+    c.style.minHeight = `${hm}px`
+}
 window.addEventListener("load", function () { load() })
 window.addEventListener("beforeunload", () => { localStorage.removeItem("opent") })
-const maindiv = document.getElementById("maindiv")
+const maindiv = document.getElementById("center")
 function load() { 
 
 
@@ -45,6 +60,7 @@ function load() {
             p.textContent = "Watch Statistic"
             p.style.marginTop = "35px"
             div.appendChild(p)
+            div.style.marginBottom="10px"
             div.addEventListener("click", function () { Statistic() })
 
         }

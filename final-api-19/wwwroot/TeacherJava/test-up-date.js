@@ -11,6 +11,20 @@ window.addEventListener("load", function () {
     }
 
 })
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const hh = body.offsetHeight
+let hm = hh - 200
+c.style.minHeight = `${hm}px`
+
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const hh = body.offsetHeight
+    let hm = hh - 200
+    c.style.minHeight = `${hm}px`
+}
 
 
 localStorage.setItem("open", 1)
@@ -101,12 +115,14 @@ function divBuilder() {
     div7.style.float = "left"
     div7.style.height = "220px"
     div7.style.width = "60%"
+    div7.style.marginLeft="-10px"
    
     div8.style.marginTop = "20px"
     div8.style.backgroundColor = "azure"
     div8.style.float = "left"
     div8.style.height = "220px"
     div8.style.width = "40%"
+    
     
     div9.style.float = "left"
     div9.style.marginLeft = "130%"
@@ -487,7 +503,9 @@ function showdata(m, qjson, aj) {
             ty = 1
             const divpic = document.createElement("div")
             divpic.style.display = "flex"
-            divpic.style.height = "200px"
+            divpic.style.height = "20vh"
+           /* divpic.style.width = "10%"*/
+            
             divpic.id = `pic${y}`
             let gg = qjson[y].picture
             divpic.innerHTML = `<img src="${gg}"/>`
@@ -609,7 +627,7 @@ function next(y, aj, qjson, m) {
             ty = 1
             const divpic = document.createElement("div")
             divpic.style.display = "flex"
-            divpic.style.height = "200px"
+            divpic.style.height = "20vh"
             divpic.id = `pic${y}`
             let gg = qjson[y].picture
             divpic.innerHTML = `<img src="${gg}"/>`
@@ -709,7 +727,7 @@ function back(y, aj, qjson, m) {
             ty = 1
             const divpic = document.createElement("div")
             divpic.style.display = "flex"
-            divpic.style.height = "200px"
+            divpic.style.height = "20vh"
             divpic.id = `pic${y}`
             let gg = qjson[y - 1].picture
             divpic.innerHTML = `<img src="${gg}"/>`

@@ -7,7 +7,20 @@ const divError1=document.getElementById("divError")
 divError1.innerHTML = ""
 window.addEventListener("beforeunload", function () { unload() })
 
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const hh = body.offsetHeight
+let hm = hh - 200
+c.style.minHeight = `${hm}px`
 
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const hh = body.offsetHeight
+    let hm = hh - 200
+    c.style.minHeight = `${hm}px`
+}
 
 
 function unload() {

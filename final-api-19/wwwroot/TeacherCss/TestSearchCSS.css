@@ -2,15 +2,26 @@
 body {
     width: 100%;
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 
+
 .bodyd {
-    position: absolute;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    background-color: azure;
+    top: 0px;
+    flex-grow: 1;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .head {
@@ -18,14 +29,14 @@ body {
     height: 100px;
     padding: 0px;
     width: 100%;
-    margin-top: -27px;
+    margin-top: 0px;
 }
 
 .hh1 {
     font-size: 40px;
     color: aqua;
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .ph1 {
@@ -37,7 +48,7 @@ body {
 
 .maindiv{
 
-   position:absolute;
+   
     width:400px;
  margin-left:40%;
  margin-top:0px;
@@ -80,7 +91,7 @@ body {
 
 
 .foot {
-    position: absolute;
+  
     background-color: black;
     height: 100px;
     bottom: 0px;

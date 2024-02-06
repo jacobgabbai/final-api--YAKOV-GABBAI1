@@ -3,7 +3,20 @@ localStorage.setItem("open", 1)
 window.addEventListener("beforeunload", function () { unload() })
 const change = document.getElementById("cars")
 const ifEmpty = 0
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const h = body.offsetHeight
+let hm = h - 200
+c.style.minHeight = `${hm}px`
 
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const h = body.offsetHeight
+    let hm = h - 200
+    c.style.minHeight = `${hm}px`
+}
 // this func change the input types 
 function readvalue(a) {
     const in12 = document.getElementById("idt")
@@ -161,6 +174,7 @@ function showdata(m, qjson, aj) {
     div1.replaceChildren()
     div11.replaceChildren()
     div111.replaceChildren()
+  div111.style.marginBottom="10px"
     const u = document.createElement("ul")
     const h1 = document.createElement("h1")
     const br = document.createElement("br")

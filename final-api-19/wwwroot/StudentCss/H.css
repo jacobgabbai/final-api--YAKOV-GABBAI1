@@ -1,15 +1,17 @@
 ﻿body {
     width: 100%;
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 
 .bodyd {
     position: absolute;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     background-color: azure;
+    display: flex;
+    flex-direction: column;
 }
 
 .head {
@@ -17,14 +19,22 @@
     height: 100px;
     padding: 0px;
     width: 100%;
-    margin-top: -27px;
+    margin-top: 0px;
+}
+.center {
+    background-color: azure;
+    top: 0px;
+    flex-grow: 1;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .hh1 {
     font-size: 40px;
     color: aqua;
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .ph1 {
@@ -109,6 +119,7 @@
     margin-left:10px;
     width:30%;
     float:left;
+    margin-bottom:20px;
 }
 .div31 {
     height:100px;

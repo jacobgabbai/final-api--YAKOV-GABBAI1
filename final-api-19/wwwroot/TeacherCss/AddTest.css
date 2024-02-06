@@ -1,31 +1,43 @@
 ﻿body {
     width: 100%;
     margin: 0;
-    height: 100%;
-    position:absolute;
+    height: 100vh;
+   
 }
 
 .bodyd {
-    position: absolute;
-    height: 100vh;
+   
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     background-color: azure;
+    display: flex;
+    flex-direction: column;
 }
+
+.center {
+    background-color: azure;
+    top: 0px;
+    flex-grow: 1;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 
 .head {
     background-color: black;
     height: 100px;
     padding: 0px;
     width: 100%;
-    margin-top: -27px;
+    margin-top: 0px;
 }
 
 .hh1 {
     font-size: 40px;
     color: aqua;
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .hhh2 {
 
@@ -58,10 +70,10 @@
 .divid {
     margin-left:30px;
     margin-top:-20px;
-    height:500px;
-    width:100%;
+    height:450px;
+   
     background-color:azure;
-    margin-bottom:30px;
+    margin-bottom:0px;
     }
 
 
@@ -141,4 +153,10 @@
     margin-top: -300px;
     height: 300px;
     border-radius: 20px;
+}
+.btn1{
+    margin-bottom:10px;
+    border-radius:10px;
+    background-color:black;
+    color:white;
 }

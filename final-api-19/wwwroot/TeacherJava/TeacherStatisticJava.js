@@ -1,4 +1,21 @@
-﻿const div1 = document.getElementById("div1")
+﻿
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const hh = body.offsetHeight
+let hm = hh - 200
+c.style.minHeight = `${hm}px`
+
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const hh = body.offsetHeight
+    let hm = hh - 200
+    c.style.minHeight = `${hm}px`
+}
+
+
+const div1 = document.getElementById("div1")
 const div2 = document.getElementById("div2")
 const in1 = document.createElement("input")
 in1.placeholder = "Enter Test Name"
@@ -257,7 +274,8 @@ function dissplay(a, b, c) {
     const divwr11 = document.getElementById("divwr2")
     divwr11.style.backgroundColor="azure"
     divwr11.style.border = "dotted"
-    divwr11.style.textAlign="center"
+    divwr11.style.textAlign = "center"
+    divwr11.style.marginBottom="10px"
     divwr11.appendChild(hwr)
     for (let z = 0; z < b; z++) {
         let bc = (b - 1) * 110 + 200

@@ -7,6 +7,22 @@ function localset() {
     localStorage.setItem("stuId", a)
     localStorage.setItem("stuName", b)
 }
+
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const h = body.offsetHeight
+let hm = h - 200
+c.style.minHeight = `${hm}px`
+
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const h = body.offsetHeight
+    let hm = h - 200
+    c.style.minHeight = `${hm}px`
+}
+
 window.addEventListener("beforeunload", function () { localset() })
 
 const st = document.createElement("select")

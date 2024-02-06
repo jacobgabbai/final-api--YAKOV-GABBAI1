@@ -3,6 +3,25 @@ const table = document.createElement("table")
 window.addEventListener("load", testh)
 localStorage.setItem("open", 1)
 
+
+
+const body = document.getElementById("body")
+const c = document.getElementById("center")
+const h = body.offsetHeight
+let hm = h - 200
+c.style.minHeight = `${hm}px`
+
+
+function myFunction() {
+    const body = document.getElementById("body")
+    const c = document.getElementById("center")
+    const h = body.offsetHeight
+    let hm = h - 200
+    c.style.minHeight = `${hm}px`
+}
+
+
+
 qex = []
 aex = []
 var tr = true
@@ -12,6 +31,7 @@ const divwr = document.createElement("div")
 divwr.style.width = "400px"
 divwr.style.marginLeft = "35%"
 divwr.style.marginTop = "0px"
+divwr.style.marginBottom="20px"
 const hwr = document.createElement("h1")
 hwr.textContent = "mistakes"
 hwr.style.marginLeft = "29%"
